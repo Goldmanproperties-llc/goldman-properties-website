@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO ===== -->
+  <title>Goldman Properties LLC — We Buy Houses for Cash in the Denver Metro</title>
+  <meta name="description" content="Goldman Properties LLC buys houses for cash across the Denver metro area. Any condition, no repairs, no agent commissions, and a closing timeline that works for you.">
+  <link rel="canonical" href="https://goldmanproperties-llc.com/">
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Goldman Properties LLC">
+  <meta property="og:title" content="Goldman Properties LLC — We Buy Houses for Cash in the Denver Metro">
+  <meta property="og:description" content="Sell your house as-is for cash. No repairs, no commissions, close on your timeline. Family-run and based in Broomfield, Colorado.">
+  <meta property="og:url" content="https://goldmanproperties-llc.com/">
+  <!-- PLACEHOLDER: add an og:image (1200x630 PNG) later for nicer link previews:
+  <meta property="og:image" content="https://goldmanproperties-llc.com/og-image.png">
+  -->
+
+  <!-- Favicon: same mark as the logo, inlined so this file works standalone -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231B2A41'/%3E%3Cpath d='M15 36 32 20 49 36' fill='none' stroke='%23C9A227' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 46h20' stroke='%23C9A227' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <!-- One Google Font (headings only); body text uses system fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap">
+
+  <!-- Structured data: helps agents/lenders/search engines verify this is a real local business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Goldman Properties LLC",
+    "description": "Residential real estate investment company buying houses for cash in the Denver metro area.",
+    "url": "https://goldmanproperties-llc.com/",
+    "email": "daniel@goldmanproperties-llc.com",
+    "founder": { "@type": "Person", "name": "Daniel Goldman" },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Broomfield",
+      "addressRegion": "CO",
+      "addressCountry": "US"
+    },
+    "areaServed": "Denver Metro Area, Colorado"
+  }
+  </script>
+
+  <style>
+    :root {
+      --navy: #1B2A41;
+      --navy-deep: #14202F;
+      --gold: #C9A227;
+      --gold-dark: #A8871F;
+      --ink: #22303F;
+      --ink-soft: #55636F;
+      --paper: #FBFAF7;
+      --paper-warm: #F4F1EA;
+      --line: #E4E0D5;
+      --serif: "Fraunces", Georgia, "Times New Roman", serif;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    h1, h2 {
+      font-family: var(--serif);
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+    }
+
+    /* ===== Logo lockup ===== */
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+    .logo svg { flex: none; display: block; }
+    .logo-name {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: 1.25rem;
+      line-height: 1.1;
+      letter-spacing: 0.01em;
+      white-space: nowrap;
+    }
+    .logo-name small {
+      display: block;
+      font-family: var(--sans);
+      font-weight: 500;
+      font-size: 0.62rem;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      opacity: 0.55;
+      margin-top: 2px;
+    }
+
+    /* ===== Header ===== */
+    header {
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 0;
+    }
+    .header-email {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--navy);
+      text-decoration: none;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 2px;
+    }
+    .header-email:hover { color: var(--gold-dark); }
+
+    /* ===== Hero ===== */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      background: var(--paper);
+      padding: 88px 0 96px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      gap: 48px;
+      align-items: center;
+    }
+    .hero h1 {
+      font-size: clamp(2.1rem, 5vw, 3.1rem);
+      margin-bottom: 20px;
+    }
+    .hero p.lede {
+      font-size: 1.15rem;
+      color: var(--ink-soft);
+      max-width: 34em;
+      margin-bottom: 32px;
+    }
+    .cta {
+      display: inline-block;
+      background: var(--navy);
+      color: #fff;
+      font-weight: 600;
+      font-size: 1.05rem;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 6px;
+      box-shadow: 0 2px 0 var(--gold);
+      transition: background 0.15s ease;
+    }
+    .cta:hover { background: var(--navy-deep); }
+    .cta-note {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--ink-soft);
+    }
+    .hero-art { text-align: center; }
+    .hero-art svg { width: 100%; max-width: 340px; height: auto; }
+
+    /* Trust strip */
+    .trust {
+      background: var(--paper-warm);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 16px 0;
+    }
+    .trust-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px 40px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--navy);
+      letter-spacing: 0.02em;
+    }
+    .trust-items span::before {
+      content: "";
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--gold);
+      margin-right: 10px;
+      vertical-align: 2px;
+    }
+
+    /* ===== Sections ===== */
+    section { padding: 80px 0; }
+    .section-label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      margin-bottom: 12px;
+    }
+    section h2 {
+      font-size: clamp(1.6rem, 3.5vw, 2.1rem);
+      margin-bottom: 16px;
+    }
+
+    /* How it works */
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 44px;
+    }
+    .step {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 32px 28px;
+    }
+    .step-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--navy);
+      color: var(--gold);
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin-bottom: 18px;
+    }
+    .step h3 {
+      font-size: 1.15rem;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+    .step p { color: var(--ink-soft); font-size: 0.98rem; }
+
+    /* About */
+    .about { background: var(--paper-warm); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .about-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      gap: 48px;
+      align-items: start;
+    }
+    .about p { color: var(--ink-soft); margin-bottom: 16px; max-width: 38em; }
+    .pro-card {
+      background: var(--navy);
+      color: #E8EBEF;
+      border-radius: 10px;
+      padding: 32px 30px;
+    }
+    .pro-card h3 {
+      font-family: var(--serif);
+      font-size: 1.15rem;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .pro-card p { font-size: 0.95rem; color: #BAC4CF; margin-bottom: 16px; }
+    .pro-card a {
+      color: var(--gold);
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 1px solid var(--gold);
+    }
+
+    /* Final CTA */
+    .final-cta { text-align: center; }
+    .final-cta p { color: var(--ink-soft); max-width: 36em; margin: 0 auto 32px; }
+
+    /* ===== Footer ===== */
+    footer {
+      background: var(--navy-deep);
+      color: #9FAAB6;
+      padding: 56px 0 40px;
+    }
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+    footer .logo { color: #fff; }
+    .footer-contact { text-align: right; font-size: 0.95rem; }
+    .footer-contact a {
+      color: var(--gold);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .footer-contact a:hover { text-decoration: underline; }
+    .footer-legal {
+      margin-top: 36px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      font-size: 0.85rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 820px) {
+      .hero { padding: 56px 0 64px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+      .hero-art { order: -1; }
+      .hero-art svg { max-width: 200px; }
+      .steps { grid-template-columns: 1fr; }
+      .about-grid { grid-template-columns: 1fr; }
+      section { padding: 60px 0; }
+      .footer-contact { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap header-inner">
+      <!-- Logo: mark + wordmark. The mark (navy tile, gold roofline) matches the favicon
+           and reads on light or dark backgrounds; the wordmark inherits text color. -->
+      <a class="logo" href="#" aria-label="Goldman Properties LLC — home">
+        <svg width="44" height="44" viewBox="0 0 64 64" role="img" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#1B2A41"/>
+          <path d="M15 36 32 20 49 36" fill="none" stroke="#C9A227" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M22 46h20" stroke="#C9A227" stroke-width="6" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-name">Goldman Properties<small>LLC</small></span>
+      </a>
+      <a class="header-email" href="mailto:daniel@goldmanproperties-llc.com">daniel@goldmanproperties-llc.com</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <h1>Sell your house for cash.<br>Simple, fair, on your&nbsp;timeline.</h1>
+          <p class="lede">Goldman Properties is a family-run real estate investment company based in Broomfield, Colorado. We buy houses across the Denver metro directly from owners — any condition, no repairs, no agent commissions.</p>
+          <a class="cta" href="mailto:daniel@goldmanproperties-llc.com?subject=Cash%20offer%20request">Email Daniel for a Cash Offer</a>
+          <p class="cta-note">No fees, no pressure, no obligation.</p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <!-- Decorative: layered rooflines echoing the logo mark -->
+          <svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg">
+            <path d="M40 210 130 130 220 210" fill="none" stroke="#E4E0D5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M120 230 210 150 300 230" fill="none" stroke="#C9A227" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+            <path d="M80 250 170 170 260 250" fill="none" stroke="#1B2A41" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M120 278h100" stroke="#1B2A41" stroke-width="14" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust">
+      <div class="wrap trust-items">
+        <span>Any condition — sell as-is</span>
+        <span>No agent commissions</span>
+        <span>Flexible closing date</span>
+        <span>Local &amp; family-run</span>
+      </div>
+    </div>
+
+    <section id="how-it-works">
+      <div class="wrap">
+        <p class="section-label">How it works</p>
+        <h2>Three steps, start to finish</h2>
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h3>Reach out</h3>
+            <p>Send a quick email with the property address and anything you'd like us to know. There's nothing to prepare and nothing to clean up.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h3>Get a cash offer</h3>
+            <p>We'll take a look at the property and make a fair, no-obligation cash offer — in writing, with no hidden fees or last-minute changes.</p>
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h3>Close on your timeline</h3>
+            <p>Pick the closing date that works for you, whether that's two weeks out or two months. We handle the paperwork; you get paid at closing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLACEHOLDER: service-area list — add a short section here naming the cities you
+         buy in (e.g., Broomfield, Westminster, Thornton, Arvada, Northglenn, Denver…):
+    <section id="service-area">
+      <div class="wrap">
+        <p class="section-label">Where we buy</p>
+        <h2>Serving the Denver metro</h2>
+        <ul>…</ul>
+      </div>
+    </section>
+    -->
+
+    <section class="about" id="about">
+      <div class="wrap about-grid">
+        <div>
+          <p class="section-label">About</p>
+          <h2>A local buyer you can actually talk to</h2>
+          <p>Goldman Properties LLC is owned and run by Daniel Goldman in Broomfield, Colorado. We buy houses in the Denver metro area, renovate them, and resell them — and we've built the business on being straightforward: honest offers, clear communication, and closings that happen when we say they will.</p>
+          <p>When you email us, you're talking to the person who makes the decisions — not a call center, not a franchise, not a middleman.</p>
+        </div>
+        <div class="pro-card">
+          <h3>Agents, wholesalers &amp; lenders</h3>
+          <p>We're an active cash buyer in the Denver metro and always open to deal flow, partnerships, and financing relationships. Reach out and we'll respond promptly.</p>
+          <a href="mailto:daniel@goldmanproperties-llc.com?subject=Professional%20inquiry">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLACEHOLDER: testimonials — add a section here once you have 2–3 quotes
+         from past sellers (name + city is enough attribution):
+    <section id="testimonials">
+      <div class="wrap">
+        <p class="section-label">What sellers say</p>
+        <h2>…</h2>
+        <blockquote>…</blockquote>
+      </div>
+    </section>
+    -->
+
+    <section class="final-cta">
+      <div class="wrap">
+        <h2>Thinking about selling?</h2>
+        <p>It costs nothing to find out what we'd pay. Email us the address and we'll get back to you with a straight answer.</p>
+        <a class="cta" href="mailto:daniel@goldmanproperties-llc.com?subject=Cash%20offer%20request">Email Daniel for a Cash Offer</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-inner">
+        <a class="logo" href="#" aria-label="Goldman Properties LLC — home">
+          <svg width="44" height="44" viewBox="0 0 64 64" role="img" aria-hidden="true">
+            <rect width="64" height="64" rx="14" fill="#1B2A41" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+            <path d="M15 36 32 20 49 36" fill="none" stroke="#C9A227" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M22 46h20" stroke="#C9A227" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <span class="logo-name">Goldman Properties<small>LLC</small></span>
+        </a>
+        <div class="footer-contact">
+          <a href="mailto:daniel@goldmanproperties-llc.com">daniel@goldmanproperties-llc.com</a>
+          <!-- PLACEHOLDER: phone number — add it here once you have a business line:
+          <br><a href="tel:+13035550100">(303) 555-0100</a>
+          -->
+        </div>
+      </div>
+      <div class="footer-legal">
+        <span>Goldman Properties LLC — Broomfield, Colorado</span>
+        <span>&copy; 2026 Goldman Properties LLC. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
