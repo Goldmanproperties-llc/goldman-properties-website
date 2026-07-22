@@ -334,6 +334,38 @@
       section { padding: 60px 0; }
       .footer-contact { text-align: left; }
     }
+
+    /* Phones: the logo + email won't fit on one row, so stack the header
+       and give the CTA a full-width tap target. */
+    @media (max-width: 600px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 16px 0;
+      }
+      .header-email { font-size: 0.88rem; }
+      .logo svg { width: 38px; height: 38px; }
+      .logo-name { font-size: 1.12rem; }
+
+      .hero { padding: 40px 0 52px; }
+      .hero h1 { font-size: clamp(1.7rem, 7.6vw, 2.3rem); }
+      .hero p.lede { font-size: 1.05rem; margin-bottom: 26px; }
+      .hero-art svg { max-width: 160px; }
+
+      .cta {
+        display: block;
+        text-align: center;
+        padding: 16px 24px;
+        font-size: 1rem;
+      }
+
+      .trust-items { gap: 10px 24px; font-size: 0.88rem; }
+      .step { padding: 26px 22px; }
+      section { padding: 48px 0; }
+
+      .footer-legal { gap: 10px; }
+    }
   </style>
 </head>
 <body>
