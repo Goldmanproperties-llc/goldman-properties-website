@@ -291,6 +291,26 @@
     .final-cta { text-align: center; }
     .final-cta p { color: var(--ink-soft); max-width: 36em; margin: 0 auto 32px; }
 
+    /* Secondary tool callout (SignRoot e-signing) */
+    .tool { padding: 8px 0 84px; }
+    .tool-card {
+      background: var(--navy);
+      border-radius: 12px;
+      padding: 44px 36px;
+      text-align: center;
+      color: #E8EBEF;
+    }
+    .tool-card .tool-icon { margin-bottom: 14px; }
+    .tool-card .section-label { color: var(--gold); margin-bottom: 10px; }
+    .tool-card h2 { color: #fff; margin-bottom: 12px; }
+    .tool-card p { color: #BAC4CF; max-width: 38em; margin: 0 auto 26px; }
+    .cta-gold {
+      background: var(--gold);
+      color: var(--navy-deep);
+      box-shadow: 0 2px 0 var(--gold-dark);
+    }
+    .cta-gold:hover { background: var(--gold-dark); color: #fff; }
+
     /* ===== Footer ===== */
     footer {
       background: var(--navy-deep);
@@ -365,6 +385,8 @@
       section { padding: 48px 0; }
 
       .footer-legal { gap: 10px; }
+      .tool { padding-bottom: 56px; }
+      .tool-card { padding: 34px 22px; }
     }
   </style>
 </head>
@@ -483,6 +505,24 @@
         <h2>Thinking about selling?</h2>
         <p>It costs nothing to find out what we'd pay. Email us the address and we'll get back to you with a straight answer.</p>
         <a class="cta" href="mailto:daniel@goldmanproperties-llc.com?subject=Cash%20offer%20request">Email Daniel for a Cash Offer</a>
+      </div>
+    </section>
+
+    <!-- Secondary tool: SignRoot e-signing app (separate app on a subdomain) -->
+    <section class="tool" id="e-sign">
+      <div class="wrap">
+        <div class="tool-card">
+          <div class="tool-icon" aria-hidden="true">
+            <svg width="46" height="46" viewBox="0 0 48 48" fill="none" stroke="#C9A227" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 30 C11 19, 15 19, 17 27 S22 35, 26 25 32 15, 42 25"/>
+              <path d="M6 41 h36"/>
+            </svg>
+          </div>
+          <p class="section-label">Free tool</p>
+          <h2>Need a document signed?</h2>
+          <p>Fast, easy e-signing for PDFs — no account and no signup required. Send it, sign it, done.</p>
+          <a class="cta cta-gold" href="https://signroot.goldmanproperties-llc.com/" target="_blank" rel="noopener">Sign a PDF with SignRoot &rarr;</a>
+        </div>
       </div>
     </section>
   </main>
