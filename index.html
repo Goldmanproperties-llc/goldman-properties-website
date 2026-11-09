@@ -5,59 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- ===== SEO ===== -->
-  <title>Goldman Properties LLC — We Buy Houses for Cash in the Denver Metro</title>
-  <meta name="description" content="Goldman Properties LLC buys houses for cash across the Denver metro area. Any condition, no repairs, no agent commissions, and a closing timeline that works for you.">
+  <title>Goldman Properties: We Buy Land in Madison County, NC</title>
+  <meta name="description" content="Goldman Properties buys vacant land for cash in Madison County, North Carolina. As-is, no agent commissions, closed by a North Carolina attorney. Lots of 5+ acres coming for sale.">
   <link rel="canonical" href="https://www.goldmanproperties-llc.com/">
 
   <!-- ===== Open Graph ===== -->
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Goldman Properties LLC">
-  <meta property="og:title" content="Goldman Properties LLC — We Buy Houses for Cash in the Denver Metro">
-  <meta property="og:description" content="Sell your house as-is for cash. No repairs, no commissions, close on your timeline. Family-run and based in Broomfield, Colorado.">
+  <meta property="og:site_name" content="Goldman Properties">
+  <meta property="og:title" content="Goldman Properties: We Buy Land in Madison County, NC">
+  <meta property="og:description" content="Own vacant land in Madison County, North Carolina? Get a straightforward cash offer. As-is, no commissions, closed by a local attorney.">
   <meta property="og:url" content="https://www.goldmanproperties-llc.com/">
-  <!-- PLACEHOLDER: add an og:image (1200x630 PNG) later for nicer link previews:
-  <meta property="og:image" content="https://goldmanproperties-llc.com/og-image.png">
-  -->
 
   <!-- Favicon: same mark as the logo, inlined so this file works standalone -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231B2A41'/%3E%3Cpath d='M15 36 32 20 49 36' fill='none' stroke='%23C9A227' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M22 46h20' stroke='%23C9A227' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231F3A2E'/%3E%3Cpath d='M10 44 24 26l8 9 8-13 14 22' fill='none' stroke='%23C9A227' stroke-width='5.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 
   <!-- One Google Font (headings only); body text uses system fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap">
 
-  <!-- Structured data: helps agents/lenders/search engines verify this is a real local business -->
+  <!-- Structured data: helps search engines, agents and attorneys verify this is a real business -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "RealEstateAgent",
+    "@type": "Organization",
     "name": "Goldman Properties LLC",
-    "description": "Residential real estate investment company buying houses for cash in the Denver metro area.",
+    "description": "Family-run company that buys vacant land for cash in Madison County, North Carolina, and sells mountain land and lots.",
     "url": "https://www.goldmanproperties-llc.com/",
     "email": "daniel@goldmanproperties-llc.com",
     "founder": { "@type": "Person", "name": "Daniel Goldman" },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Broomfield",
-      "addressRegion": "CO",
-      "addressCountry": "US"
-    },
-    "areaServed": "Denver Metro Area, Colorado"
+    "areaServed": { "@type": "AdministrativeArea", "name": "Madison County, North Carolina" }
   }
   </script>
 
   <style>
     :root {
-      --navy: #1B2A41;
-      --navy-deep: #14202F;
+      --pine: #1F3A2E;
+      --pine-deep: #16291F;
       --gold: #C9A227;
-      --gold-dark: #A8871F;
-      --ink: #22303F;
-      --ink-soft: #55636F;
-      --paper: #FBFAF7;
-      --paper-warm: #F4F1EA;
-      --line: #E4E0D5;
+      --gold-dark: #9A7B17;
+      --ink: #24302A;
+      --ink-soft: #56625B;
+      --paper: #FAF9F5;
+      --paper-warm: #F2EFE6;
+      --line: #E2DED2;
+      --ridge-far: #DCE3DA;
+      --ridge-mid: #A9BCA9;
       --serif: "Fraunces", Georgia, "Times New Roman", serif;
       --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
@@ -83,7 +76,7 @@
     h1, h2 {
       font-family: var(--serif);
       font-weight: 600;
-      color: var(--navy);
+      color: var(--pine);
       line-height: 1.15;
       letter-spacing: -0.01em;
     }
@@ -130,7 +123,7 @@
     .header-email {
       font-size: 0.95rem;
       font-weight: 600;
-      color: var(--navy);
+      color: var(--pine);
       text-decoration: none;
       border-bottom: 2px solid var(--gold);
       padding-bottom: 2px;
@@ -142,16 +135,11 @@
       position: relative;
       overflow: hidden;
       background: var(--paper);
-      padding: 88px 0 96px;
+      padding: 88px 0 0;
     }
-    .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
-      gap: 48px;
-      align-items: center;
-    }
+    .hero-text { max-width: 40em; }
     .hero h1 {
-      font-size: clamp(2.1rem, 5vw, 3.1rem);
+      font-size: clamp(2.1rem, 5vw, 3.2rem);
       margin-bottom: 20px;
     }
     .hero p.lede {
@@ -162,7 +150,7 @@
     }
     .cta {
       display: inline-block;
-      background: var(--navy);
+      background: var(--pine);
       color: #fff;
       font-weight: 600;
       font-size: 1.05rem;
@@ -172,20 +160,24 @@
       box-shadow: 0 2px 0 var(--gold);
       transition: background 0.15s ease;
     }
-    .cta:hover { background: var(--navy-deep); }
+    .cta:hover { background: var(--pine-deep); }
     .cta-note {
       margin-top: 14px;
       font-size: 0.9rem;
       color: var(--ink-soft);
     }
-    .hero-art { text-align: center; }
-    .hero-art svg { width: 100%; max-width: 340px; height: auto; }
+    /* Decorative mountain ridges along the bottom of the hero */
+    .hero-ridges {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-top: 56px;
+      margin-bottom: -1px; /* no hairline gap above the trust strip */
+    }
 
     /* Trust strip */
     .trust {
-      background: var(--paper-warm);
-      border-top: 1px solid var(--line);
-      border-bottom: 1px solid var(--line);
+      background: var(--pine);
       padding: 16px 0;
     }
     .trust-items {
@@ -195,7 +187,7 @@
       gap: 12px 40px;
       font-size: 0.92rem;
       font-weight: 600;
-      color: var(--navy);
+      color: #fff;
       letter-spacing: 0.02em;
     }
     .trust-items span::before {
@@ -223,11 +215,38 @@
       font-size: clamp(1.6rem, 3.5vw, 2.1rem);
       margin-bottom: 16px;
     }
+    .intro { color: var(--ink-soft); max-width: 38em; }
+
+    /* What we buy */
+    .buy-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px 40px;
+      margin-top: 32px;
+      list-style: none;
+    }
+    .buy-list li {
+      position: relative;
+      padding-left: 30px;
+      color: var(--ink);
+    }
+    .buy-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.35em;
+      width: 16px;
+      height: 10px;
+      border-left: 3px solid var(--gold);
+      border-bottom: 3px solid var(--gold);
+      transform: rotate(-45deg);
+    }
 
     /* How it works */
+    .how { background: var(--paper-warm); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
     .steps {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 28px;
       margin-top: 44px;
     }
@@ -244,7 +263,7 @@
       width: 44px;
       height: 44px;
       border-radius: 50%;
-      background: var(--navy);
+      background: var(--pine);
       color: var(--gold);
       font-family: var(--serif);
       font-weight: 600;
@@ -253,10 +272,41 @@
     }
     .step h3 {
       font-size: 1.15rem;
-      color: var(--navy);
+      color: var(--pine);
       margin-bottom: 10px;
     }
     .step p { color: var(--ink-soft); font-size: 0.98rem; }
+
+    /* Land for sale */
+    .sale-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      gap: 48px;
+      align-items: center;
+    }
+    .sale p { color: var(--ink-soft); margin-bottom: 16px; max-width: 36em; }
+    .sale-card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--gold);
+      border-radius: 10px;
+      padding: 30px 28px;
+    }
+    .sale-card h3 {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      color: var(--pine);
+      margin-bottom: 8px;
+    }
+    .sale-card p { font-size: 0.95rem; margin-bottom: 20px; }
+    .text-link {
+      color: var(--pine);
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 1px;
+    }
+    .text-link:hover { color: var(--gold-dark); }
 
     /* About */
     .about { background: var(--paper-warm); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
@@ -268,8 +318,8 @@
     }
     .about p { color: var(--ink-soft); margin-bottom: 16px; max-width: 38em; }
     .pro-card {
-      background: var(--navy);
-      color: #E8EBEF;
+      background: var(--pine);
+      color: #E6ECE8;
       border-radius: 10px;
       padding: 32px 30px;
     }
@@ -279,7 +329,7 @@
       color: #fff;
       margin-bottom: 10px;
     }
-    .pro-card p { font-size: 0.95rem; color: #BAC4CF; margin-bottom: 16px; }
+    .pro-card p { font-size: 0.95rem; color: #B9C8BF; margin-bottom: 16px; }
     .pro-card a {
       color: var(--gold);
       font-weight: 600;
@@ -291,30 +341,25 @@
     .final-cta { text-align: center; }
     .final-cta p { color: var(--ink-soft); max-width: 36em; margin: 0 auto 32px; }
 
-    /* Secondary tool callout (RootSign e-signing) */
-    .tool { padding: 8px 0 84px; }
+    /* Small secondary note: RootSign free PDF signer */
+    .tool { padding: 0 0 72px; }
     .tool-card {
-      background: var(--navy);
-      border-radius: 12px;
-      padding: 44px 36px;
-      text-align: center;
-      color: #E8EBEF;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 22px 26px;
+      background: #fff;
     }
-    .tool-card .tool-icon { margin-bottom: 14px; }
-    .tool-card .section-label { color: var(--gold); margin-bottom: 10px; }
-    .tool-card h2 { color: #fff; margin-bottom: 12px; }
-    .tool-card p { color: #BAC4CF; max-width: 38em; margin: 0 auto 26px; }
-    .cta-gold {
-      background: var(--gold);
-      color: var(--navy-deep);
-      box-shadow: 0 2px 0 var(--gold-dark);
-    }
-    .cta-gold:hover { background: var(--gold-dark); color: #fff; }
+    .tool-card svg { flex: none; }
+    .tool-card p { color: var(--ink-soft); font-size: 0.95rem; }
+    .tool-card strong { color: var(--pine); }
 
     /* ===== Footer ===== */
     footer {
-      background: var(--navy-deep);
-      color: #9FAAB6;
+      background: var(--pine-deep);
+      color: #A3B2A9;
       padding: 56px 0 40px;
     }
     .footer-inner {
@@ -345,33 +390,31 @@
 
     /* ===== Responsive ===== */
     @media (max-width: 820px) {
-      .hero { padding: 56px 0 64px; }
-      .hero-grid { grid-template-columns: 1fr; gap: 36px; }
-      .hero-art { order: -1; }
-      .hero-art svg { max-width: 200px; }
+      .hero { padding-top: 56px; }
+      .hero-ridges { margin-top: 40px; }
       .steps { grid-template-columns: 1fr; }
-      .about-grid { grid-template-columns: 1fr; }
+      .sale-grid, .about-grid { grid-template-columns: 1fr; gap: 32px; }
       section { padding: 60px 0; }
       .footer-contact { text-align: left; }
     }
 
-    /* Phones: the logo + email won't fit on one row, so stack the header
-       and give the CTA a full-width tap target. */
+    /* Phones: stack the header and give the CTA a full-width tap target. */
     @media (max-width: 600px) {
+      .wrap { padding: 0 16px; }
       .header-inner {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
-        padding: 16px 0;
+        padding: 16px;
       }
       .header-email { font-size: 0.88rem; }
       .logo svg { width: 38px; height: 38px; }
       .logo-name { font-size: 1.12rem; }
 
-      .hero { padding: 40px 0 52px; }
-      .hero h1 { font-size: clamp(1.7rem, 7.6vw, 2.3rem); }
+      .hero { padding-top: 40px; }
+      .hero h1 { font-size: clamp(1.8rem, 8vw, 2.3rem); }
       .hero p.lede { font-size: 1.05rem; margin-bottom: 26px; }
-      .hero-art svg { max-width: 160px; }
+      .hero-ridges { margin-top: 32px; }
 
       .cta {
         display: block;
@@ -380,13 +423,14 @@
         font-size: 1rem;
       }
 
-      .trust-items { gap: 10px 24px; font-size: 0.88rem; }
+      .trust-items { flex-direction: column; align-items: flex-start; gap: 8px; font-size: 0.9rem; }
+      .buy-list { grid-template-columns: 1fr; }
       .step { padding: 26px 22px; }
       section { padding: 48px 0; }
 
+      .tool { padding-bottom: 48px; }
+      .tool-card { align-items: flex-start; padding: 20px; }
       .footer-legal { gap: 10px; }
-      .tool { padding-bottom: 56px; }
-      .tool-card { padding: 34px 22px; }
     }
   </style>
 </head>
@@ -394,15 +438,13 @@
 
   <header>
     <div class="wrap header-inner">
-      <!-- Logo: mark + wordmark. The mark (navy tile, gold roofline) matches the favicon
-           and reads on light or dark backgrounds; the wordmark inherits text color. -->
-      <a class="logo" href="#" aria-label="Goldman Properties LLC — home">
+      <!-- Logo: mark (pine tile, gold mountain ridge) + wordmark. Matches favicon.svg. -->
+      <a class="logo" href="#" aria-label="Goldman Properties: home">
         <svg width="44" height="44" viewBox="0 0 64 64" role="img" aria-hidden="true">
-          <rect width="64" height="64" rx="14" fill="#1B2A41"/>
-          <path d="M15 36 32 20 49 36" fill="none" stroke="#C9A227" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M22 46h20" stroke="#C9A227" stroke-width="6" stroke-linecap="round"/>
+          <rect width="64" height="64" rx="14" fill="#1F3A2E"/>
+          <path d="M10 44 24 26l8 9 8-13 14 22" fill="none" stroke="#C9A227" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        <span class="logo-name">Goldman Properties<small>LLC</small></span>
+        <span class="logo-name">Goldman Properties<small>Land &middot; Western NC</small></span>
       </a>
       <a class="header-email" href="mailto:daniel@goldmanproperties-llc.com">daniel@goldmanproperties-llc.com</a>
     </div>
@@ -410,35 +452,49 @@
 
   <main>
     <section class="hero">
-      <div class="wrap hero-grid">
-        <div>
-          <h1>Sell your house for cash.<br>Simple, fair, on your&nbsp;timeline.</h1>
-          <p class="lede">Goldman Properties is a family-run real estate investment company based in Broomfield, Colorado. We buy houses across the Denver metro directly from owners — any condition, no repairs, no agent commissions.</p>
-          <a class="cta" href="mailto:daniel@goldmanproperties-llc.com?subject=Cash%20offer%20request">Email Daniel for a Cash Offer</a>
-          <p class="cta-note">No fees, no pressure, no obligation.</p>
-        </div>
-        <div class="hero-art" aria-hidden="true">
-          <!-- Decorative: layered rooflines echoing the logo mark -->
-          <svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg">
-            <path d="M40 210 130 130 220 210" fill="none" stroke="#E4E0D5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M120 230 210 150 300 230" fill="none" stroke="#C9A227" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
-            <path d="M80 250 170 170 260 250" fill="none" stroke="#1B2A41" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M120 278h100" stroke="#1B2A41" stroke-width="14" stroke-linecap="round"/>
-          </svg>
+      <div class="wrap">
+        <div class="hero-text">
+          <p class="section-label">Madison County, North Carolina</p>
+          <h1>We buy land in Madison&nbsp;County.</h1>
+          <p class="lede">Own vacant land you no longer use, visit or want to keep paying taxes on? Goldman Properties buys acreage directly from owners, for cash. No listing, no showings, no agent commissions.</p>
+          <a class="cta" href="mailto:daniel@goldmanproperties-llc.com?subject=Land%20in%20Madison%20County">Email Daniel About Your Land</a>
+          <p class="cta-note">Free, no pressure, no obligation.</p>
         </div>
       </div>
+      <!-- Decorative: layered Blue Ridge silhouettes -->
+      <svg class="hero-ridges" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 120 L120 70 L230 110 L360 40 L480 95 L600 55 L720 100 L850 35 L980 90 L1100 50 L1230 105 L1340 60 L1440 90 V220 H0 Z" fill="var(--ridge-far)"/>
+        <path d="M0 160 L140 110 L260 150 L400 95 L540 145 L660 110 L800 160 L930 100 L1070 150 L1200 115 L1330 155 L1440 125 V220 H0 Z" fill="var(--ridge-mid)"/>
+        <path d="M0 200 L160 155 L300 190 L450 145 L600 195 L760 150 L900 190 L1050 150 L1200 195 L1330 160 L1440 185 V220 H0 Z" fill="var(--pine)"/>
+      </svg>
     </section>
 
     <div class="trust">
       <div class="wrap trust-items">
-        <span>Any condition — sell as-is</span>
+        <span>Cash purchase</span>
+        <span>Sell as-is</span>
         <span>No agent commissions</span>
-        <span>Flexible closing date</span>
-        <span>Local &amp; family-run</span>
+        <span>Closed by a North Carolina attorney</span>
       </div>
     </div>
 
-    <section id="how-it-works">
+    <section id="what-we-buy">
+      <div class="wrap">
+        <p class="section-label">What we buy</p>
+        <h2>Vacant land, anywhere in Madison County</h2>
+        <p class="intro">We're looking for land the owner is ready to part with. It doesn't need to be cleared, surveyed or listed.</p>
+        <ul class="buy-list">
+          <li>Tracts of about 5 to 150 acres</li>
+          <li>Inherited or family land, including land shared by several heirs</li>
+          <li>Land you've owned for years and rarely visit</li>
+          <li>Wooded, overgrown or never-developed land</li>
+          <li>Owners who live out of the area or out of state</li>
+          <li>Near Marshall, Mars Hill, Hot Springs or anywhere in between</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="how" id="how-it-works">
       <div class="wrap">
         <p class="section-label">How it works</p>
         <h2>Three steps, start to finish</h2>
@@ -446,107 +502,92 @@
           <div class="step">
             <span class="step-num">1</span>
             <h3>Reach out</h3>
-            <p>Send a quick email with the property address and anything you'd like us to know. There's nothing to prepare and nothing to clean up.</p>
+            <p>Email the parcel number or a rough location, and anything you'd like us to know. There's nothing to prepare.</p>
           </div>
           <div class="step">
             <span class="step-num">2</span>
-            <h3>Get a cash offer</h3>
-            <p>We'll take a look at the property and make a fair, no-obligation cash offer — in writing, with no hidden fees or last-minute changes.</p>
+            <h3>Get a written cash offer</h3>
+            <p>We research the land and send a clear cash offer in writing. If it doesn't work for you, no hard feelings.</p>
           </div>
           <div class="step">
             <span class="step-num">3</span>
-            <h3>Close on your timeline</h3>
-            <p>Pick the closing date that works for you, whether that's two weeks out or two months. We handle the paperwork; you get paid at closing.</p>
+            <h3>Close with an attorney</h3>
+            <p>A North Carolina attorney handles the contract and closing. We check the survey and title along the way, and you're paid at closing.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PLACEHOLDER: service-area list — add a short section here naming the cities you
-         buy in (e.g., Broomfield, Westminster, Thornton, Arvada, Northglenn, Denver…):
-    <section id="service-area">
-      <div class="wrap">
-        <p class="section-label">Where we buy</p>
-        <h2>Serving the Denver metro</h2>
-        <ul>…</ul>
+    <section class="sale" id="land-for-sale">
+      <div class="wrap sale-grid">
+        <div>
+          <p class="section-label">Land for sale</p>
+          <h2>Looking for mountain land?</h2>
+          <p>Some of the land we buy is sold as one tract; some is divided into lots of 5 acres or more. Good places for a home, a cabin or just room to breathe, in the mountains north of Asheville.</p>
+          <p>We don't have any land listed yet.</p>
+        </div>
+        <div class="sale-card">
+          <h3>Get first word on new land</h3>
+          <p>Tell us what you're looking for (acreage, budget, area) and we'll email you when something fits.</p>
+          <a class="text-link" href="mailto:daniel@goldmanproperties-llc.com?subject=Land%20for%20sale%20list">Join the land list &rarr;</a>
+        </div>
       </div>
     </section>
-    -->
 
     <section class="about" id="about">
       <div class="wrap about-grid">
         <div>
           <p class="section-label">About</p>
-          <h2>A local buyer you can actually talk to</h2>
-          <p>Goldman Properties LLC is owned and run by Daniel Goldman in Broomfield, Colorado. We buy houses in the Denver metro area, renovate them, and resell them — and we've built the business on being straightforward: honest offers, clear communication, and closings that happen when we say they will.</p>
-          <p>When you email us, you're talking to the person who makes the decisions — not a call center, not a franchise, not a middleman.</p>
+          <h2>A small, family-run company</h2>
+          <p>Goldman Properties is owned and run by Daniel Goldman. We buy land in Madison County, North Carolina, and either resell it whole or divide it into lots for people who want to live in or visit the mountains.</p>
+          <p>When you email us, you're talking to the person who makes the decisions: not a call center, not a franchise, not a middleman.</p>
         </div>
         <div class="pro-card">
-          <h3>Agents, wholesalers &amp; lenders</h3>
-          <p>We're an active cash buyer in the Denver metro and always open to deal flow, partnerships, and financing relationships. Reach out and we'll respond promptly.</p>
+          <h3>Land agents, surveyors &amp; attorneys</h3>
+          <p>We're building our local team in western North Carolina and always glad to hear from land agents, surveyors, soil scientists, attorneys and other land professionals.</p>
           <a href="mailto:daniel@goldmanproperties-llc.com?subject=Professional%20inquiry">Get in touch</a>
         </div>
       </div>
     </section>
 
-    <!-- PLACEHOLDER: testimonials — add a section here once you have 2–3 quotes
-         from past sellers (name + city is enough attribution):
-    <section id="testimonials">
-      <div class="wrap">
-        <p class="section-label">What sellers say</p>
-        <h2>…</h2>
-        <blockquote>…</blockquote>
-      </div>
-    </section>
-    -->
-
     <section class="final-cta">
       <div class="wrap">
-        <h2>Thinking about selling?</h2>
-        <p>It costs nothing to find out what we'd pay. Email us the address and we'll get back to you with a straight answer.</p>
-        <a class="cta" href="mailto:daniel@goldmanproperties-llc.com?subject=Cash%20offer%20request">Email Daniel for a Cash Offer</a>
+        <h2>Thinking about selling your land?</h2>
+        <p>It costs nothing to find out what we'd pay. Email the parcel number or location and we'll get back to you with a straight answer.</p>
+        <a class="cta" href="mailto:daniel@goldmanproperties-llc.com?subject=Land%20in%20Madison%20County">Email Daniel About Your Land</a>
       </div>
     </section>
 
-    <!-- Secondary tool: RootSign e-signing app (separate app at rootsign.io) -->
-    <section class="tool" id="e-sign">
+    <!-- Secondary: RootSign, Daniel's free in-browser PDF signer -->
+    <div class="tool">
       <div class="wrap">
         <div class="tool-card">
-          <div class="tool-icon" aria-hidden="true">
-            <svg width="46" height="46" viewBox="0 0 48 48" fill="none" stroke="#C9A227" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M6 30 C11 19, 15 19, 17 27 S22 35, 26 25 32 15, 42 25"/>
-              <path d="M6 41 h36"/>
-            </svg>
-          </div>
-          <p class="section-label">Our e-sign tool</p>
-          <h2>Need a document signed?</h2>
-          <p>Free, easy e-signing for PDFs — no account, no credit card. Send 2 documents free every month; need more, it's just $1 each. Send it, sign it, done.</p>
-          <a class="cta cta-gold" href="https://rootsign.io/" target="_blank" rel="noopener">Sign a PDF free with RootSign &rarr;</a>
+          <svg width="36" height="36" viewBox="0 0 48 48" fill="none" stroke="#9A7B17" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 30 C11 19, 15 19, 17 27 S22 35, 26 25 32 15, 42 25"/>
+            <path d="M6 41 h36"/>
+          </svg>
+          <p><strong>Need to sign a PDF?</strong> Try our free signer, <a class="text-link" href="https://rootsign.pages.dev/" target="_blank" rel="noopener">RootSign</a>. It runs in your browser: nothing is uploaded and there's no account.</p>
         </div>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer>
     <div class="wrap">
       <div class="footer-inner">
-        <a class="logo" href="#" aria-label="Goldman Properties LLC — home">
+        <a class="logo" href="#" aria-label="Goldman Properties: home">
           <svg width="44" height="44" viewBox="0 0 64 64" role="img" aria-hidden="true">
-            <rect width="64" height="64" rx="14" fill="#1B2A41" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
-            <path d="M15 36 32 20 49 36" fill="none" stroke="#C9A227" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M22 46h20" stroke="#C9A227" stroke-width="6" stroke-linecap="round"/>
+            <rect width="64" height="64" rx="14" fill="#1F3A2E" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+            <path d="M10 44 24 26l8 9 8-13 14 22" fill="none" stroke="#C9A227" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <span class="logo-name">Goldman Properties<small>LLC</small></span>
+          <span class="logo-name">Goldman Properties<small>Land &middot; Western NC</small></span>
         </a>
         <div class="footer-contact">
           <a href="mailto:daniel@goldmanproperties-llc.com">daniel@goldmanproperties-llc.com</a>
-          <!-- PLACEHOLDER: phone number — add it here once you have a business line:
-          <br><a href="tel:+13035550100">(303) 555-0100</a>
-          -->
         </div>
       </div>
       <div class="footer-legal">
-        <span>Goldman Properties LLC — Broomfield, Colorado</span>
+        <span>Buying land in Madison County, North Carolina</span>
         <span>&copy; 2026 Goldman Properties LLC. All rights reserved.</span>
       </div>
     </div>
